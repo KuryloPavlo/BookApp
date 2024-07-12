@@ -1,0 +1,8 @@
+Requirements to run the project: 
+1. React Native Expo
+2. Expo Go App on your device
+
+To run project:
+1. Open terminal
+2. Write "npm start"
+3. Scan QR code with Expo Go app (Android) or the Camera app (iOS)
