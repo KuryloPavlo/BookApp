@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { fontSizes } from "../../Utility/theme";
+import { colors, fontSizes } from "../../Utility/theme";
 
 const styles = StyleSheet.create({
   seriesSection: {
@@ -28,6 +28,12 @@ const styles = StyleSheet.create({
   seriesTitle: {
     fontSize: fontSizes.small,
     fontWeight: "bold",
+  },
+  sectionSubtitle: {
+    color: colors.purple,
+    fontSize: fontSizes.small,
+    lineHeight: 14,
+    fontWeight: "700",
   },
 });
 

@@ -35,7 +35,7 @@ const SeriesSection = ({ data }: { data: BookI[] | null }) => {
                   />
                   <Text style={styles.seriesRank}>{book.id}</Text>
                   <View>
-                    <Text>{book.genre}</Text>
+                    <Text style={styles.sectionSubtitle}>{book.genre}</Text>
                     <Text style={styles.seriesTitle}>{book.bookName}</Text>
                   </View>
                 </View>
